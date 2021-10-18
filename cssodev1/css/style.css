@@ -1,0 +1,41 @@
+/***********************************Bütün body için*****************************/
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 200vh;
+    background: linear-gradient(45deg, rgb(33, 33, 33),rgb(50, 50, 50),rgb(13, 115, 119),rgb(20, 255, 236));
+    background-size: 500% 500%;
+    animation: animeBG 7s linear infinite;
+    animation-direction: alternate;
+
+}
+@keyframes animeBG {
+    0% { background-position: 0%;}
+    100% {background-position: 100%;}
+}
+/*******************************Liste elemanları için genel*****************************/
+ul{
+    list-style-type: none;
+}
+/******************************nav bölümü butonları için genel**********************/
+button{ 
+    color: black;
+    background-color:darkgray ;
+    margin: auto;
+    height: 40px;
+    border-radius: 15px;
+    
+  
+}
+
+h1{
+    color: indigo;
+}
+h2{
+    color: gray;
+}
+h3{
+    color: lightslategray ;
+}
