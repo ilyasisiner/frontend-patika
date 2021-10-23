@@ -1,0 +1,24 @@
+.nav-navbar{
+    text-align:center;
+}
+.nav-item:hover{
+    background-color: chartreuse;
+}
+.jumbotron{
+    background-color: #E9ECEF;
+    text-align: center;
+}
+body{
+    background-color: #E9ECEF;
+}
+.urunler{
+    text-align: center;
+    list-style:square;
+}
+#logo{
+    display: block;
+    margin: auto;
+}
+h4,h3{
+    text-align: center;
+}
