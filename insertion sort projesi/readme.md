@@ -2,12 +2,12 @@
 
 1-verilen dizinin sort türüne göre aşamaları
 
-    22,27,16,2,18,6 n
-   [16,22]27,2,18,6 n-1
-   [2,16,22]27,18,6 n-2
-   [2,16,18,22]27,6 n-3
-   [2,6,16,18,22]27 n-4
-   [2,6,16,18,22,27] 1
+   1-22,27,16,2,18,6 n
+   2-[16,22]27,2,18,6 n-1
+   3-[2,16,22]27,18,6 n-2
+   4-[2,16,18,22]27,6 n-3
+   5-[2,6,16,18,22]27 n-4
+   6-[2,6,16,18,22,27] 1
 
 
 
@@ -18,9 +18,9 @@
 
 
 3-Time Complexity
-     Average case:O(n)
-     Worst case:O(n^2)
-     Best case:O(n^2)
+     1-Average case:O(n)
+     2-Worst case:O(n^2)
+     3-Best case:O(n^2)
 
 4- 18 sayısı: Average Case
     
