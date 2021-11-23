@@ -1,48 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>En İyi 250 Dizi</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <!-- Section Start -->
-    <section class="section">
-    <!-- Header Start -->
-        <header>
-            <img class="image" src="/img/newlogoimdb.png" alt="">
-            <h1><strong>IMDb En İyi 250 Dizi</strong></h1>
-        </header>
-    <!-- Header End -->
-    <!-- İçerik Start -->
-    <!-- Karşılama Yazısı Start -->
-        <article class="art1">
-            <div id="adın">
-                <strong>
-                    Selamlar , puanlarına göre en iyi 250 diziyi bulabileceğin sitemize hoşgeldin.
-                </strong>
-            </div>
-        </article>
-    <!-- Karşılam Yazısı End -->
-    <!-- Saat ve Haftanın Günü Start -->
-        <article class="sh">
-            <div id="zaman" onload="baslat()"></div>
-        </article>
-    <!-- Saat ve Haftanın Günü End -->
-    <!-- Siteye Git Buton Start -->
-        <article >
-            <button class="btn">
-                <a class="yazı" href="https://www.imdb.com/chart/toptv/?ref_=nv_tvv_250" target="_blank">
-                    Sitede İncele
-                </a>
-            </button>
-    <!-- Siteye Git Buton End -->
-        </article>
-    <!-- İçerik End -->
-    </section>
-    <!-- Section End -->
-    <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>Kodluyoruz Javascript Saat Ödevi</title>
+  </head>
+  <body class="bg-dark">
+    <div class="text-center">
+      <img
+        src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+        alt=""
+        class="rounded"
+      />
+      <div class="text1 text-center">
+        Merhaba, <strong><span id="myName"></span></strong>! Hoş geldin!
+      </div>
+      <div id="myClock" class="clock" onload="showTime()"></div>
+      <div class="text2 text-center">
+        tarihinde
+        <strong>Kodluyoruz Frontend Web Development Patikası</strong>'nın
+        Javascript bölümü 1. Ödevindesiniz.
+      </div>
+    </div>
+    <script src="js/clock.js"></script>
+  </body>
 </html>
